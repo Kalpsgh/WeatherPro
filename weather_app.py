@@ -5,7 +5,7 @@ import pandas as pd
 import plotly.express as px
 
 # --- API Keys ---
-WEATHER_API_KEY = "88fd7f086ca73f36a837dca76c634adb"
+WEATHER_API_KEY = st.secrets["api"]["weather_api_key"]
 
 # --- URLs ---
 WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
